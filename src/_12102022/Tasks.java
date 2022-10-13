@@ -24,10 +24,10 @@ public class Tasks {
      */
 
     public static void main(String[] args) {
-        int[] array = {3, 55, 44,22,77};
+        int[] array = {3, 55, 44, 22, 77};
         System.out.println("sum=" + getSum(array));
         System.out.println("avg=" + getAvg(array));
-        System.out.println("new array: " + Arrays.toString(insertEl(array,2,99)));
+        System.out.println("new array: " + Arrays.toString(insertEl(array, 2, 99)));
         System.out.println("min=" + min(array));
         System.out.println("max=" + max(array));
     }
