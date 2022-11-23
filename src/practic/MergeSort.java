@@ -6,10 +6,9 @@ import java.util.Stack;
 public class MergeSort {
 
     private static int count = 0;
-
     public static void main(String[] args) {
         int[] arr = new int[]{2, 6, 87, 1, 0, 52, 42, 41, 1, 5, 7};
-        // исходя из подсчетов сложность примерно O(n*log(n))
+        // исходя из подсчетов сложность примерно O(n*log n)
         System.out.println(Arrays.toString(mergeSortIterative(arr)));
         System.out.println("count=" + count);
         count = 0;
